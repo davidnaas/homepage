@@ -43,6 +43,12 @@ p { font-size: 1.1em }
   margin-right: 16px;
 }
 
+.photo-credit {
+  color: rgba(0,0,0,.7);
+  font-weight: italic;
+  font-size: .8em;
+}
+
 @media (max-width: 600px) {
   .portrait {
     height: 400px;

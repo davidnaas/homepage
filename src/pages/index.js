@@ -3,7 +3,10 @@ import React from 'react'
 const IndexPage = () => (
   <div className="va-wrapper">
     <div className="content-wrapper">
-      <img className="portrait" src="http://davidnaas.se/portrait.jpg" />
+      <div className="portrait-wrapper">  
+        <img className="portrait" src="http://davidnaas.se/portrait.jpg" />
+        <span className="photo-credit">photo: <a href="https://www.instagram.com/marialouceiro/" target="_blank">maria louceiro</a></span>
+      </div>
       <div className="text-wrapper">
         <p className="greeting">Hi there, my name is David.</p>
         <p>I'm a web developer and a musician from Sweden living in Berlin.</p>
