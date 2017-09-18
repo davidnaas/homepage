@@ -15,6 +15,7 @@
   "license": "MIT",
   "main": "src/pages/index.js",
   "scripts": {
+    "start": "gatsby serve",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
@@ -22,5 +23,10 @@
   },
   "devDependencies": {
     "prettier": "^1.6.1"
+  },
+  "now": {
+    "alias": "david.naas",
+    "name": "davidnaas-homepage",
+    "type": "npm"
   }
 }
