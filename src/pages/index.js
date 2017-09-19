@@ -12,7 +12,7 @@ const IndexPage = () => (
         <p>I'm a web developer and a musician from Sweden living in Berlin.</p>
         <p>My passion lies within the intersection of music and technology, where the line between art and science starts to blur.</p>
         <p>I'm currently working at <a href="https://idagio.com" target="_blank">IDAGIO</a> where we are
-        building the best streaming service for classical music lovers.</p>
+        building the best streaming service for classical music.</p>
         <div className="links-wrapper">
           <a className="link" href="mailto:mail@davidnaas.se">contact</a>
           <span className="separator-1"> / </span>
