@@ -9,11 +9,18 @@ p { font-size: 1.1em }
   height: 100vh;
   align-items: center;
   justify-content: center;
-  margin: 8px 16px;
+  margin: 16px;
 }
 
 @media (max-width: 600px) {
   .va-wrapper {
+    height: auto;
+  }
+}
+
+@media (max-height: 500px) {
+  .va-wrapper {
+    align-items: normal;
     height: auto;
   }
 }
@@ -44,8 +51,8 @@ p { font-size: 1.1em }
 }
 
 .photo-credit {
+  display: block;
   color: rgba(0,0,0,.7);
-  font-weight: italic;
   font-size: .8em;
 }
 

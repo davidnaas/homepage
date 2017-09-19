@@ -9,6 +9,9 @@ const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
       title="David | Nääs"
+      meta={[
+        {name: "viewport", content: "width=device-width, initial-scale=1"},
+      ]}
     />
     <div>
       {children()}
