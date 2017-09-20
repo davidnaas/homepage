@@ -14,7 +14,7 @@ const IndexPage = () => (
         <p>I'm currently working at <a href="https://idagio.com" target="_blank">IDAGIO</a> where we are
         building the best streaming service for classical music.</p>
         <div className="links-wrapper">
-          <a className="link" href="mailto:mail@davidnaas.se">contact</a>
+          <a className="link" href="mailto:hello@davidnaas.com">contact</a>
           <span className="separator-1"> / </span>
           <a className="link" href="https://gameoflife.bandcamp.com/track/john-stoic-iii" target="_blank">music</a>
           <span className="separator-2"> / </span>

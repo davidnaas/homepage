@@ -14,7 +14,7 @@ const renderImageInfo = () => (
           <span style={boldStyle}>Tel: </span>01575-9611789
         </span>
         <span style={blockStyle}>
-          <span style={boldStyle}>Email: </span>mail@davidnaas.se
+          <span style={boldStyle}>Email: </span>hello@davidnaas.com
         </span>
         <span style={blockStyle}>
           <span style={boldStyle}>Website: </span>www.davidnaas.com
