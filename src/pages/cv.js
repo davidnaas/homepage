@@ -37,11 +37,9 @@ const renderSummary = () => (
   <div style={paragraphStyle}>
     <h2>Summary</h2>
     <p>
-      I’m a developer and musician from Sweden living in Berlin. I’m currently working at IDAGIO, where we are trying to build the best streaming platform for classical music. When I’m not writing code, I’m either making music or trying to learn something new. At the moment I’m finishing up my first solo record which hopefully will be out soon.
-    </p>
+      I’m a developer and a musician from Sweden living in Berlin. I’m currently working at IDAGIO, where we are trying to build the best streaming platform for classical music. I have three years of experience working in fast moving startups with a modern tech stack. While my expertise lies in front-end, I also have experience working on back-end services.    </p>
     <p>
-      After initially aspiring to become a jazz musician and music teacher I soon realised that I didn’t want to work as a musician in a formal sense and switched to tech instead. In early 2015 I moved to Berlin to work for an internet security startup and have since stayed.
-    </p>
+      I also have formal training in practical, theoretical and technological parts of music. This combination has given me a good understanding of how music translates to theoretical concepts such as acoustics, electronics, sampling etc.    </p>
   </div>
 );
 

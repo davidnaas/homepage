@@ -4,7 +4,7 @@ const IndexPage = () => (
   <div className="va-wrapper">
     <div className="content-wrapper">
       <div className="portrait-wrapper">  
-        <img className="portrait" src="http://davidnaas.se/portrait.jpg" />
+        <img className="portrait" src="https://s3.amazonaws.com/davidnaas-images/homepage/portrait.jpg" />
         <span className="photo-credit">photo: <a href="https://www.instagram.com/marialouceiro/" target="_blank">maria louceiro</a></span>
       </div>
       <div className="text-wrapper">
