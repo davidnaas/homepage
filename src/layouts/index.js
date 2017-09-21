@@ -2,6 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
+if (process && process.env.NOW_LOGS_SECRET) {
+  require('now-logs')(process.env.NOW_LOGS_SECRET)
+}
+
 import './index.css'
 const TemplateWrapper = ({ children }) => (
   <div>
