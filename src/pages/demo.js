@@ -4,12 +4,12 @@ import React from 'react'
 const baseURL = 'https://s3.eu-central-1.amazonaws.com/davidnaas-demo/';
 
 const tracks = [
-  { title: '140816', slug: '140816' },
-  { title: 'Gloom IV', slug: 'Gloom+IV' },
   { title: 'I break fourses', slug: 'I+break+fourses' },
-  { title: 'Milky Lemon', slug: 'Milky+lemon' },
-  { title: 'Phase locked fugue', slug: 'Phase+locked+fugue' },
   { title: 'Test driven depression', slug: 'Test+driven+depression' },
+  { title: 'Phase locked fugue', slug: 'Phase+locked+fugue' },
+  { title: '140816', slug: '140816' },
+  { title: 'Milky Lemon', slug: 'Milky+lemon' },
+  { title: 'Gloom IV', slug: 'Gloom+IV' },
 ];
 
 const Demo = () => (
