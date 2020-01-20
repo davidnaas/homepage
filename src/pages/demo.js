@@ -1,4 +1,5 @@
 import React from 'react'
+import Layout from '../components/layout'
 
 
 const baseURL = 'https://s3.eu-central-1.amazonaws.com/davidnaas-demo/';
@@ -13,20 +14,22 @@ const tracks = [
 ];
 
 const Demo = () => (
-  <ul style={{ listStyle: 'none', paddingLeft: 0 }}>
-    { (() => {
-      return (
-        tracks.map((track, i) => {
-          return (
-            <li key={i} style={{ marginBottom: '2rem' }}>
-              <h3>{ track.title }</h3>
-              <audio src={`${baseURL}${track.slug}.mp3`} controls="controls"/>
-            </li>
-          );
-        })
-      );
-    })() }
-  </ul>
+  <Layout>
+    <ul style={{ listStyle: 'none', paddingLeft: 0 }}>
+      { (() => {
+        return (
+          tracks.map((track, i) => {
+            return (
+              <li key={i} style={{ marginBottom: '2rem' }}>
+                <h3>{ track.title }</h3>
+                <audio src={`${baseURL}${track.slug}.mp3`} controls="controls"/>
+              </li>
+            );
+          })
+        );
+      })() }
+    </ul>
+  </Layout>
 )
 
 export default Demo;
