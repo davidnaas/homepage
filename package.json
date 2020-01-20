@@ -30,6 +30,9 @@
   "now": {
     "alias": "david.naas",
     "name": "davidnaas-homepage",
-    "type": "npm"
+    "type": "yarn"
+  },
+  "engines": {
+    "node": "12.14.1"
   }
 }
