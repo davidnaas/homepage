@@ -37,7 +37,7 @@ const renderSummary = () => (
   <div style={paragraphStyle}>
     <h2>Summary</h2>
     <p>
-      I’m a developer and a musician from Sweden living in Berlin. Since early 2016 I've been working at IDAGIO, a streaming service for classical music, where I'm currently leading its front end team. This role involves both managerial tasks and and purely technical ones, luckily I find both stimulating! During my years here I've had the privilege of working with a wide variety of projects and technologies, spanning everything from partnerships with world renowned musicians to integrating our product with external hardware such as sonos.
+      I’m a developer and a musician from Sweden living in Berlin. Since early 2016 I've been working at IDAGIO, a streaming service for classical music, where I'm currently leading its front end team. This role involves both managerial tasks and purely technical ones, luckily I find both stimulating! During my years here I've had the privilege of working with a wide variety of projects and technologies, spanning everything from partnerships with world renowned musicians to integrating our product with external hardware such as sonos.
     </p>
     <p>
       Even if I like to board the front end hype-train every now and then, I do believe that work environment is more important to the success of an engineering team than using bleeding edge technology. As a team lead, I see my most important role as being someone who enables team members to do their best work. This can be such things as improving communication structures, acting as a first point of contact with other departments, making sure they are comfortable with their current situation etc. I believe that this is the foundation of a great product.
